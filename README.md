@@ -40,12 +40,6 @@ Deploy the contract to the local Hardhat network:
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
-### Run Tests (TODO)
-Run the tests to ensure the contract functions as expected:
-```bash
-npx hardhat test
-```
-
 ### Result (view balances)
 
 The script will display the balances of the contract and the user for ETH and WBTC. This ensures that the user has correctly sent the expected amount of ETH and confirms that the contract has successfully swapped it for WBTC.
